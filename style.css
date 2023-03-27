@@ -1,0 +1,121 @@
+body {
+    font-family:  Optima, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #71748d;
+    color: black;
+    background-color: #D7D7F3;
+    width: 360px;
+    height: 580px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #3d405c;
+    color: black;
+    margin: 0px 0px 15px 0px;
+    font-family: Optima, sans-serif;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 10px;
+}
+
+h5 {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p {
+    margin: 0px 0px 20px 0px;
+}
+
+p:last-child{
+    margin: 0px;
+}
+
+a {
+    color: #5969ff;
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+button.btn-primary {
+}
+button.btn {
+}
+.btn-lg {
+    padding: 11px 3px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid green;
+}
+.btn-primary {
+    color: #fff;
+    background-color: green;
+}
+.btn {
+    font-size: 14px;
+    padding: 9px 16px;
+}
+
+.content {
+    padding: 5px;
+}
+
+.text-color-green {
+    color: green;
+}
+
+.text-color-black{
+    color: black;
+}
+
+.list {
+    font-size: 16px;
+    overflow-x: auto;
+    height: 255px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 10px;
+}
+
+.clear_button {
+    position: fixed;
+    top: 207px;
+    right: 25px;
+}

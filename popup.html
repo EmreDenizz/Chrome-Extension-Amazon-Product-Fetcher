@@ -1,0 +1,47 @@
+<!--
+ - @author Emre Deniz <https://github.com/EmreDenizz>
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Amazon ASIN Fetcher</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body style="">
+    <center>
+	<a href='https://www.amazon.com/' target="_blank"><img src="images/logo-2.png" width="150"/></a>
+        <br/><br/>
+        You can use the extension to fetch <b>product ASINs</b> from Amazon.com
+	<hr/>
+    </center>
+
+    <div class="content">
+	<div class="description">
+            <p><b>Fetch ASINs from Amazon.com</b></p>
+	    Visit product pages on <a href='https://www.amazon.com/' target="_blank">amazon.com</a>. Click <b>FETCH</b> buttons on product detail pages.
+	</div>
+	
+	<br/>
+	
+	<h4>ASIN List:</h4>
+	<div class="list">
+	    <div id="asin_list"></div>
+	</div>
+        
+        <div id="message" style="font-weight: bold; margin-top: 8px;"></div>
+	
+	<div class="bottom">
+	    <button id="copy_button" type="submit" class="btn btn-lg btn-primary" style="width: 250px;">COPY</button>
+	    <button id="clear_button" type="submit" class="btn btn-lg btn-primary" style="width: 95px; background: white; color: black; border: 1px solid #71748d;">CLEAR</button>
+	</div>
+    </div>
+    
+</body>
+    
+</html>

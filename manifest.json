@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.2",
+    "name": "Amazon ASIN Fetcher",
+    "description": "Amazon ASIN Fetcher - Chrome Extension by Emre Deniz",
+    "icons": {
+	"16": "images/logo-1.png",
+	"48": "images/logo-1.png",
+	"128": "images/logo-1.png"
+    },
+    "browser_action": {
+	"default_icon": "images/logo-1.png",
+	"default_popup": "popup.html"
+    },
+    "content_scripts": [
+	{
+	    "matches": ["https://www.amazon.com/*"],
+	    "js": ["content.js", "jquery-3.3.1.min.js"]
+	}
+    ],
+    "background": {
+	"scripts": ["background.js"],
+	"persistent": false
+    },
+    "permissions":[
+	"storage"
+    ]
+}
