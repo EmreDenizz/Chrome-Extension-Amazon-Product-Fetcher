@@ -1,8 +1,8 @@
-# Chrome-Extension-Amazon-ASIN-Fetcher
-Amazon ASIN Fetcher - Chrome Extension
+# Chrome-Extension-Amazon-Product-Fetcher
+Amazon Product ASIN Fetcher - Chrome Extension
 
 ### HOW TO RUN:
-- Download **Chrome-Extension-Amazon-ASIN-Fetcher** folder from here
+- Download **Chrome-Extension-Amazon-Product-Fetcher** folder from here
 - Go to **chrome://extensions/** page on your **Google Chrome Browser**
 - Click **Load unpacked** and select the downloaded folder
 - All fetched ASINs will be listed on extension
